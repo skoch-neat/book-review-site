@@ -1,23 +1,59 @@
-body {
-    font-family: sans-serif;
-    background-color: #009e9e;
+header, footer {
+    border: 2px solid teal;
+    background-color: rgb(186, 221, 216);
+}
+
+main {
+    border: 2px solid darkcyan;
+    background-color: rgb(128, 193, 185);
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 99, 99);
+}
+
+.book-title {
+    font-style: italic;
 }
 
 h1 {
+    color:darkslategray;
+}
+
+h2 {
+    color:rgb(33, 55, 55);
+}
+
+h3 {
+    color:rgb(21, 36, 36);
+}
+
+h4 {
+    color:rgb(14, 23, 23);
+}
+
+a {
+    color:blue;
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    color:tomato;
+    font-weight: bold;
     text-decoration: underline;
-    text-align: center;
-    color: midnightblue;
 }
 
-p {
-    line-height: 150%;
-    color: darkslategrey;
-}
-
-section {
-    background-color: ghostwhite;
+a:visited {
+    color:navy
 }
 
 li {
-    list-style-type: circle;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Grape Nuts", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
